@@ -3,8 +3,6 @@ package com.caranha.android.udacity.popmoviesstage1.fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Parcelable;
-import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.GridLayoutManager;
@@ -38,8 +36,6 @@ import retrofit2.Response;
 import retrofit2.Call;
 import retrofit2.Callback;
 
-import static android.media.tv.TvContract.Programs.Genres.MOVIES;
-
 /**
  * Created by caranha on 6/22/17.
  */
@@ -48,7 +44,6 @@ import static android.media.tv.TvContract.Programs.Genres.MOVIES;
 public class MovieGridFragment extends Fragment  implements MovieGridAdapter.ItemClickListener{
     protected static final String PREF_MOVIE = "CARANHA.UDACITY.MOVIE";
     private static final String PREF_SORT = "CARANHA.UDACITY.SORT";
-    private static final String PREF_LAYOUT = "CARANHA.UDACITY.LAYOUT";
     private static final String TAG = "MovieGridFragment";
     private static final String FETCH_POPULAR_MOVIE = "POPULAR";
     private static final String FETCH_TOPRATED_MOVIE = "TOPRATED";
@@ -79,7 +74,7 @@ public class MovieGridFragment extends Fragment  implements MovieGridAdapter.Ite
 
         if (savedInstanceState != null) {
             mSortType = savedInstanceState.getString(PREF_SORT);
-            mMovieList = savedInstanceState.getParcelableArrayList(MOVIES);
+            mMovieList = savedInstanceState.getParcelableArrayList(PREF_MOVIE);
             initView();
         } else{
             if (NetworkConnectivity.isNetworkAvailable(getActivity())) {
@@ -109,8 +104,7 @@ public class MovieGridFragment extends Fragment  implements MovieGridAdapter.Ite
         ArrayList<MovieDataModel> movieList = new ArrayList<>(mMovieGridAdapter.getMovieList());
 
         if (movieList != null && mMovieGridAdapter.getItemCount() > 0) {
-            outState.putParcelable(PREF_LAYOUT, mMovieListRecyclerView.getLayoutManager().onSaveInstanceState());
-            outState.putParcelableArrayList(MOVIES, movieList);
+            outState.putParcelableArrayList(PREF_MOVIE, movieList);
         }
     }
 

@@ -1,6 +1,5 @@
 package com.caranha.android.udacity.popmoviesstage1.datamodel;
 
-import android.graphics.Movie;
 import android.os.Parcel;
 import android.os.Parcelable;
 

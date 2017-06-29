@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/caranha/dev/Udacity/Stage1/PopMoviesStage1/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/caranha/dev/Udacity/Project/AndroidPart1/PopMoviesStage1/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="23f88e1ac5e73ab3c9a40427f472a22020c84651">
+        <dex dex="/Users/caranha/dev/Udacity/Project/AndroidPart1/PopMoviesStage1/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_415831a7773ec6a46c94630450f4369fc18e0fb7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/caranha/dev/Udacity/Project/AndroidPart1/PopMoviesStage1/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="/Users/caranha/dev/Udacity/Stage1/PopMoviesStage1/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c616a8e5f2dbecc11ad4b14ea9e89c873b745280/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/caranha/dev/Udacity/Stage1/PopMoviesStage1/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="410e3ce159a7a9b8bc64c8beb4596f1023d68af9">
-        <dex dex="/Users/caranha/dev/Udacity/Stage1/PopMoviesStage1/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_dd0eaa3ba305b39adfe82e13f2d02377cfdb2042/classes.dex" />
+        <dex dex="/Users/caranha/dev/Udacity/Project/AndroidPart1/PopMoviesStage1/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_ee3d25685b7ee3fd509bf783573e1b87a9b56023/classes.dex" />
     </item>
 
 </items>
