@@ -5,10 +5,14 @@
     <string name="menuitem_popularMovies">Popular</string>
     <string name="menuitem_topRatedMovies">Top Rated</string>
 
+    <string name="movieGrid_Poster">Movie Poster</string>
+
     <!-- strings for details activity -->
     <string name="movie_details_summary">Plot Summary</string>
     <string name="movie_details_rating">/10</string>
     <string name="moviedetail_duration">minutes</string>
+    <string name="moviedetail_poster">Movie Poster</string>
+    <string name="movieDetail_ratingStar">Rating Star</string>
 
     <!-- error messages -->
     <string name="movieGrid_no_movies_found">No movies found</string>

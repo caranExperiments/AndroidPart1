@@ -115,7 +115,7 @@ public class MovieGridFragment extends Fragment  implements MovieGridAdapter.Ite
         super.onCreateOptionsMenu(menu, inflater);
         menu.findItem(R.id.menu_item_popular).setChecked(true);
         if(mSortType != null) {
-            if (mSortType == FETCH_TOPRATED_MOVIE) {
+            if (mSortType.equals(FETCH_TOPRATED_MOVIE)){
                 menu.findItem(R.id.menu_item_top_rated).setChecked(true);
             }
         }
@@ -179,7 +179,7 @@ public class MovieGridFragment extends Fragment  implements MovieGridAdapter.Ite
         mProgressBarIndicator.setVisibility(View.VISIBLE);
         ClientInterface apiService = Client.getClient().create(ClientInterface.class);
         Call<MovieResponseDataModel> call;
-        if (fetchType == FETCH_POPULAR_MOVIE) {
+        if (fetchType.equals(FETCH_POPULAR_MOVIE)) {
             call = apiService.getPopularMovies(Client.API_KEY);
         } else {
             call = apiService.getTopRatedMovies(Client.API_KEY);

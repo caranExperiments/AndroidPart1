@@ -85,6 +85,7 @@
                     android:scaleType="centerCrop"
                     android:layout_marginTop="@dimen/movieDetails_inner_margin"
                     android:adjustViewBounds="true"
+                    android:contentDescription="@string/moviedetail_poster"
                     />
 
                 <LinearLayout
@@ -147,7 +148,8 @@
                             android:layout_marginTop="@dimen/movieDetails_inner_margin"
                             android:layout_marginStart="0dp"
                             android:layout_marginEnd="@dimen/movieDetails_votingstar_margin_end"
-                            android:src="@drawable/ratingstar"/>
+                            android:src="@drawable/ratingstar"
+                            android:contentDescription="@string/movieDetail_ratingStar"/>
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
