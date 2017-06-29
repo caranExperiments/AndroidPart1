@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/caranha/dev/Udacity/Stage1/PopMoviesStage1/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/caranha/dev/Udacity/Stage1/PopMoviesStage1/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c616a8e5f2dbecc11ad4b14ea9e89c873b745280/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/caranha/dev/Udacity/Stage1/PopMoviesStage1/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="410e3ce159a7a9b8bc64c8beb4596f1023d68af9">
+        <dex dex="/Users/caranha/dev/Udacity/Stage1/PopMoviesStage1/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_dd0eaa3ba305b39adfe82e13f2d02377cfdb2042/classes.dex" />
+    </item>
+
+</items>
